@@ -15,6 +15,9 @@ android {
               targets "native-lib", "APPLIB"
             }
         }
+        ndk {
+            abiFilters 'x86'
+        }
     }
     buildTypes {
         release {
