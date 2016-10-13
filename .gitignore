@@ -1,0 +1,4 @@
+**/.idea/
+**/.externalNativeBuild/
+**/*.iml
+app/android/app/build
