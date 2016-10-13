@@ -2,3 +2,4 @@
 **/.externalNativeBuild/
 **/*.iml
 app/android/app/build
+core/lib/android/build
