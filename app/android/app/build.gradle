@@ -12,6 +12,7 @@ android {
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         externalNativeBuild {
             cmake {
+              arguments "-DANDROID_TOOLCHAIN=clang", "-DANDROID_STL=c++_shared"
               targets "native-lib", "APPLIB"
             }
         }
