@@ -12,6 +12,8 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -frtti")
 
 set(APP_DIR "${CMAKE_CURRENT_SOURCE_DIR}/app/android/app")
 set(APP_LIB_DIR "${CMAKE_CURRENT_SOURCE_DIR}/app/lib")
+set(CORE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/core/lib/android")
 
+add_subdirectory(${CORE_DIR})
 add_subdirectory(${APP_LIB_DIR})
 add_subdirectory(${APP_DIR})

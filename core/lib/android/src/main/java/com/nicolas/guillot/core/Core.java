@@ -2,7 +2,9 @@ package com.nicolas.guillot.core;
 
 
 public class Core {
-  public static String toUpperCase(final String str) {
-    return str.toUpperCase();
+  static {
+    System.loadLibrary("core");
   }
+
+  public static native String toUpperCase(final String str);
 }
